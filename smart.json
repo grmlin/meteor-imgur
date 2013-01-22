@@ -1,0 +1,8 @@
+{
+    "name"        : "imgur",
+    "description" : "Smart package to use the imgur api",
+    "homepage"    : "https://github.com/grmlin/meteor-imgur",
+    "author"      : "Andreas Wehr  (https://github.com/grmlin)",
+    "version"     : "0.1.0",
+    "git"         : "https://github.com/grmlin/meteor-imgur.git"
+}
