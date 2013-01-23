@@ -7,6 +7,6 @@ Package.on_use(function (api) {
     api.use('underscore', 'server');
     api.use('coffeescript', 'server');
     
-    api.add_files(['src/Response.coffee'], 'server');
-    api.add_files(['src/Api.coffee'], 'server');
+    api.add_files(['server/Response.coffee'], 'server');
+    api.add_files(['server/Api.coffee'], 'server');
 });
