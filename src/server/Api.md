@@ -48,7 +48,7 @@ id used for imgur images!
 
 ## api.uploadFile(file)
 
-TODO
+NOT YET IMPLEMENTED
 
 ## api.uploadUrl(url, callback, [ctx = null])
 
