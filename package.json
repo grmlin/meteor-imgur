@@ -1,0 +1,12 @@
+{
+    "name"         : "meteor-imgur-documentation",
+    "version"      : "0.1.0",
+    "license"      : "MIT",
+    "repository"   : {
+        "type" : "git",
+        "url"  : "https://github.com/grmlin/meteor-imgur.git"
+    },
+    "dependencies" : {
+        "mdoc" : "latest"
+    }
+}
