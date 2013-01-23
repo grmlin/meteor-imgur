@@ -21,6 +21,6 @@ it there
 
 ## Documentation
 
-is available [here]()
+is available [here](http://grmlin.github.com/meteor-imgur/doc/)
 
 
