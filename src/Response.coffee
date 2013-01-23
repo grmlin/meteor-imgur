@@ -31,21 +31,23 @@ imgur.Response = do ->
     error     :
       get : ->
         #console.log @data
-        
-        if @_responseData 
-          """
-          IMGUR API ERROR (see https://api.imgur.com/errorhandling)
-            STATUS: #{@status}
-            REQUEST: #{@get('request')}
-            METHOD: #{@get('method')}
-            MESSAGE #{@get('error')}
-            PARAMETERS: #{@get('parameters')}
-          """
-        else
-          """
-          IMGUR
-            A fatal error occured loading data via HTTP
-            #{@_error}
-          """
+        if @_error
+          if @_responseData 
+            """
+            IMGUR API ERROR (see https://api.imgur.com/errorhandling)
+              STATUS: #{@status}
+              REQUEST: #{@get('request')}
+              METHOD: #{@get('method')}
+              MESSAGE #{@get('error')}
+              PARAMETERS: #{@get('parameters')}
+            """
+          else
+            """
+            IMGUR
+              A fatal error occured loading data via HTTP
+              #{@_error}
+            """
+        else 
+          null
 
   return Response
