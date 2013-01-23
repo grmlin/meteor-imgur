@@ -45,11 +45,16 @@
 <a href="#imgur.Api.DEFAULT_OPTIONS">imgur.Api.DEFAULT_OPTIONS</a>, Optional</li>
 </ul>
 
-<h2>api.delete(hash) <a href="#api.delete" id="api.delete" class="deep-link">#</a></h2>
+<h2>api.delete(deletehash, callback, [ctx = null]) <a href="#api.delete" id="api.delete" class="deep-link">#</a></h2>
 
 <ul>
-<li><code>hash</code> String - the id/hash of the image that should be deleted</li>
+<li><code>deletehash</code> String - the <strong>delete</strong>hash of the image that should be deleted. This is not the normal image hash / 
+id used for imgur images!</li>
+<li><code>callback</code> Function - callback function</li>
+<li><code>ctx</code> Object - the context of the callback function, Optional</li>
 </ul>
+
+<p><code>callback</code> gets two arguments (error, <a href="Response.html">imgur.Response</a>). </p>
 
 <h2>api.getImageInformation(hash, callback, [ctx = null]) <a href="#api.getImageInformation" id="api.getImageInformation" class="deep-link">#</a></h2>
 

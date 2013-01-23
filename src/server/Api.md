@@ -13,9 +13,14 @@ Default options used for imgur api http calls
 * `options` Object - a custom options object that will be merged with the default options 
 [imgur.Api.DEFAULT_OPTIONS](#imgur.Api.DEFAULT_OPTIONS), Optional
 
-## api.delete(hash)
+## api.delete(deletehash, callback, [ctx = null])
 
-* `hash` String - the id/hash of the image that should be deleted
+* `deletehash` String - the **delete**hash of the image that should be deleted. This is not the normal image hash / 
+id used for imgur images!
+* `callback` Function - callback function
+* `ctx` Object - the context of the callback function, Optional
+
+`callback` gets two arguments (error, [imgur.Response](Response.html)). 
 
 ## api.getImageInformation(hash, callback, [ctx = null])
 

@@ -35,6 +35,13 @@
 <li>run the meteor script from the folder you checked the github repo out into, not the locally installed  one and add 
 it there</li>
 </ul>
+
+<h2>Usage</h2>
+
+<pre><code>api = new imgur.Api("secretkey");
+api.getImageInformation('imagehash', onInfo);
+api.uploadUrl("<a href='http://foo.bar/funny.gif'>http://foo.bar/funny.gif</a>", onUpload);
+</code></pre>
 <h2>Table of Contents</h2>
 <ul class="mod-list">
 
