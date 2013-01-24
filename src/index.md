@@ -2,6 +2,9 @@
 
 A meteor / meteorite smart package providing easy access to the [imgur api](http://api.imgur.com/). 
 
+> The package isn't finished yet. The methods available should work, but I did not implement all of imgur's available
+ api endpoints at this point in time.
+ 
 ## Installation
 
 First, you need to get an imgur api key [here](http://api.imgur.com/oauth2/addclient).

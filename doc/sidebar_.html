@@ -20,46 +20,6 @@
                 
             </div>
         
-            <h3 class="toc-mod-title"><a href="server/Response.html">server/Response</a></h3>
-            <div class="toc-list">
-                
-                <a class="toc-item" href="server/Response.html#new imgur.Response">
-                    <h4>new imgur.Response(apiResponse, error)</h4>
-                    <span class="desc"><ul>
-<li><code>apiResponse</code> Object - the response object returned by the Meteor.http  methods.</li>
-<li><code>error</code> Error - the error parameter of the Meteor.http method callbacks</li>
-</ul></span>
-                </a>
-                
-                <a class="toc-item" href="server/Response.html#response.data">
-                    <h4>response.data:Object</h4>
-                    <span class="desc">returns the complete data object of the api call. If the call wasn't successful the original responseObject will be  returned.</span>
-                </a>
-                
-                <a class="toc-item" href="server/Response.html#response.error">
-                    <h4>response.error:String</h4>
-                    <span class="desc">returns an error message, if there was any. <code>null</code> otherwise</span>
-                </a>
-                
-                <a class="toc-item" href="server/Response.html#response.get">
-                    <h4>response.get(key):*</h4>
-                    <span class="desc"><ul>
-<li>key String - the key of the returned data from the imgur api call, you're interested in</li>
-</ul></span>
-                </a>
-                
-                <a class="toc-item" href="server/Response.html#response.isSuccess">
-                    <h4>response.isSuccess:Boolean</h4>
-                    <span class="desc">returns true, if the imgur api call was successful</span>
-                </a>
-                
-                <a class="toc-item" href="server/Response.html#response.status">
-                    <h4>response.status:Number</h4>
-                    <span class="desc">returns the http status of the api call   </span>
-                </a>
-                
-            </div>
-        
             <h3 class="toc-mod-title"><a href="server/Api.html">server/Api</a></h3>
             <div class="toc-list">
                 
@@ -104,6 +64,46 @@ imgur.Api.DEFAULT_OPTIONS, Optional</li>
 <li><code>url</code> String - image url you want to upload to imgur * <code>callback</code> Function - callback function</li>
 <li><code>ctx</code> Object - the context of the callback function, Optional</li>
 </ul></span>
+                </a>
+                
+            </div>
+        
+            <h3 class="toc-mod-title"><a href="server/Response.html">server/Response</a></h3>
+            <div class="toc-list">
+                
+                <a class="toc-item" href="server/Response.html#new imgur.Response">
+                    <h4>new imgur.Response(apiResponse, error)</h4>
+                    <span class="desc"><ul>
+<li><code>apiResponse</code> Object - the response object returned by the Meteor.http  methods.</li>
+<li><code>error</code> Error - the error parameter of the Meteor.http method callbacks</li>
+</ul></span>
+                </a>
+                
+                <a class="toc-item" href="server/Response.html#response.data">
+                    <h4>response.data:Object</h4>
+                    <span class="desc">returns the complete data object of the api call. If the call wasn't successful the original responseObject will be  returned.</span>
+                </a>
+                
+                <a class="toc-item" href="server/Response.html#response.error">
+                    <h4>response.error:String</h4>
+                    <span class="desc">returns an error message, if there was any. <code>null</code> otherwise</span>
+                </a>
+                
+                <a class="toc-item" href="server/Response.html#response.get">
+                    <h4>response.get(key):*</h4>
+                    <span class="desc"><ul>
+<li>key String - the key of the returned data from the imgur api call, you're interested in</li>
+</ul></span>
+                </a>
+                
+                <a class="toc-item" href="server/Response.html#response.isSuccess">
+                    <h4>response.isSuccess:Boolean</h4>
+                    <span class="desc">returns true, if the imgur api call was successful</span>
+                </a>
+                
+                <a class="toc-item" href="server/Response.html#response.status">
+                    <h4>response.status:Number</h4>
+                    <span class="desc">returns the http status of the api call   </span>
                 </a>
                 
             </div>
